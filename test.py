@@ -18,4 +18,4 @@ class OCR:
 
 if __name__ == '__main__':
     c=OCR()
-    print(c.getOCR("D:/codes/DLL/mcg.dat","D:/codes/DLL/2bc2w.png"))
+    print('result:',c.getOCR("D:/codes/DLL/dat/wy.dat","D:/codes/DLL/wytest_2anq.bmp"))
