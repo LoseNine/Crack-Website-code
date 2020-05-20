@@ -1,8 +1,15 @@
 # WEIBO-OCR
-新浪微博的验证码识别（样本1万），训练模型ResNet_LSTM_CTC
+新浪微博的验证码识别，训练模型ResNet_LSTM_CTC
 
-识别微博验证码，分辨率100x40
-![](https://github.com/LoseNine/WEIBO-OCR/blob/master/2bc2w.png)
+1.识别微博验证码，模型weibo.dat，分辨率100x40，识别率95%
+![](https://github.com/LoseNine/Decryption-Website-code/blob/master/wbtest_2bc2w.png)
+
+网易的验证码识别，训练模型ResNet_LSTM_CTC
+
+2.识别微博验证码，模型wy.dat，分辨率80x26，识别率91%
+![](https://github.com/LoseNine/Decryption-Website-code/blob/master/wytest_2anq.bmp)
+
+
 
 ## 开放OCR.dll方法
 ```
@@ -32,7 +39,7 @@ class OCR:
 
 if __name__ == '__main__':
     c=OCR()
-    print(c.getOCR("D:/codes/DLL/mcg.dat","D:/codes/DLL/2bc2w.png"))
+    print('result:',c.getOCR("D:/codes/DLL/dat/wy.dat","D:/codes/DLL/wytest_2anq.bmp"))
     #返回识别结果
 ```
 
