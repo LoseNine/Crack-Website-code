@@ -1,10 +1,9 @@
 # WEIBO-OCR
-新浪微博的验证码识别，训练模型ResNet_LSTM_CTC
+训练模型ResNet_LSTM_CTC
 
 1.识别微博验证码，模型weibo.dat，分辨率100x40，识别率95%
 ![](https://github.com/LoseNine/Decryption-Website-code/blob/master/wbtest_2bc2w.png)
 
-网易的验证码识别，训练模型ResNet_LSTM_CTC
 
 2.识别微博验证码，模型wy.dat，分辨率80x26，识别率91%
 ![](https://github.com/LoseNine/Decryption-Website-code/blob/master/wytest_2anq.bmp)
