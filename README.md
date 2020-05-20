@@ -5,7 +5,7 @@
 ![](https://github.com/LoseNine/Decryption-Website-code/blob/master/wbtest_2bc2w.png)
 
 
-2.识别微博验证码，模型wy.dat，分辨率80x26，识别率91%
+2.识别网易验证码，模型wy.dat，分辨率80x26，识别率91%
 ![](https://github.com/LoseNine/Decryption-Website-code/blob/master/wytest_2anq.bmp)
 
 
