@@ -1,4 +1,5 @@
 import ctypes
+
 class OCR:
     def __init__(self):
         self.dll=None
@@ -16,6 +17,3 @@ class OCR:
         result=ctypes.string_at(self.dll.getOCR(mcg, img))
         return result.decode('gb2312')
 
-if __name__ == '__main__':
-    c=OCR()
-    print('result:',c.getOCR("D:/codes/DLL/dat/wy.dat","D:/codes/DLL/wytest_2anq.bmp"))
