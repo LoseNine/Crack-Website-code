@@ -3,6 +3,9 @@
 识别微博验证码，分辨率100x40
 ![](https://github.com/LoseNine/Crack-Website-code/blob/master/testimg/wbtest_2bc2w.png)
 
+识别知乎验证码，分辨率150x60
+![](https://github.com/LoseNine/Crack-Website-code/blob/master/testimg/zhtest_3axs.jpg)
+
 识别网易验证码，分辨率80x26
 ![](https://github.com/LoseNine/Crack-Website-code/blob/master/testimg/wytest_2anq.bmp)
 
@@ -23,7 +26,8 @@ from core import test
 
 if __name__ == '__main__':
     ocr=test.OCR()
-    print('result:', ocr.getOCR("D:/codes/DLL/dat/wy.dat", "D:/codes/DLL/wytest_2anq.bmp"))
+    img="D:/codes/DLL/wytest_2anq.bmp"
+    print('result:', ocr.getOCR("wangyi",img ))
     #返回识别结果
 ```
 
